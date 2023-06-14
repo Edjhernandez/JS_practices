@@ -66,7 +66,7 @@ function processData(input) {
   let stringOut = '';
   let out = '';
 
-  arrayTotal.forEach((element/* , index */) => {
+  arrayTotal.forEach((element, index) => {
     array = element.split(';');
 
     if (array[0] === 'S') { // here is S
@@ -102,8 +102,7 @@ function processData(input) {
       stringOut = arrayWord.filter((letter) => letter !== ' ').join('');
     }
 
-    // (index !== arrayTotal.length - 1)? out = `${out + stringOut}\n` : out = `${out + stringOut}`;
-    out = `${out + stringOut}\n`;
+    out = (index !== arrayTotal.length - 1) ? `${out + stringOut}\n` : `${out + stringOut}`;
   });
 
   return console.log(out);
