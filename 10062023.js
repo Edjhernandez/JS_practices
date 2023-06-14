@@ -1,5 +1,3 @@
-// import fetch from 'node-fetch';
-
 /* 10 06 2023 practices
 
 const interval = setInterval(() => {
