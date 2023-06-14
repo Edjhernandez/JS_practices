@@ -2,7 +2,8 @@
   "name": "js_practices",
   "version": "1.0.0",
   "description": "",
-  "main": "mainJS.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
