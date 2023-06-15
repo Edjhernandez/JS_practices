@@ -36,6 +36,9 @@
     ],
     "*.(css|scss)": [
       "stylelint --fix"
-    ]
+    ],
+    "*.(html)": ["hint"
+  ]
+
   }
 }
