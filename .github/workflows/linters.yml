@@ -28,7 +28,7 @@ jobs:
           node-version: "16.x"
       - name: Setup Webhint
         run: |
-          npm install hint --save-dev
+          npm install hint@
           [ -f .hintrc ]
       - name: Webhint Report
         run: npx hint .
