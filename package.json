@@ -1,0 +1,47 @@
+{
+  "name": "js_practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edjhernandez/JS_practices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edjhernandez/JS_practices/issues"
+  },
+  "homepage": "https://github.com/Edjhernandez/JS_practices#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "lint-staged": {
+    "*.(js)": [
+      "eslint --fix"
+    ],
+    "*.(css|scss)": [
+      "stylelint --fix"
+    ],
+    "*.(html)": [
+      "hint"
+    ]
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.11"
+  }
+}
