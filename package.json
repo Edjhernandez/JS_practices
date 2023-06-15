@@ -37,8 +37,11 @@
     "*.(css|scss)": [
       "stylelint --fix"
     ],
-    "*.(html)": ["hint"
-  ]
-
+    "*.(html)": [
+      "hint"
+    ]
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.11"
   }
 }
